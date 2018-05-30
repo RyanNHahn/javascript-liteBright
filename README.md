@@ -1,9 +1,9 @@
 # Javascript - LiteBright
 Build an interactive Lite Brite utilizing JavaScript and jQuery. The project will be a grid of elements that change color when clicked, then have the ability to blink.  When complete, the user will be able to draw a picture with multiple colors using the program.
 
-## Directions
+## Directions - JavaScript
 
-1. The **HTML** and **CSS** have been provided for you. Take a look through each to see their structure, and look through the **CSS** at the classes. We will toggle these classes to make the **HTML** elements change. To get started, open *main.js*, write a function named `main`, with no parameters. You can write all of your code inside the main function for this project. Then declare the document ready jQuery function, and make `main` its callback function.
+1. To get started, open *script.js*, write a function named `main`, with no parameters. You can write all of your code inside the main function for this project. Then declare the document ready jQuery function, and make `main` its callback function.
 
 2. In the top left corner, there are three `<div>`s that will let the user choose which color they'd like to use. A user should be able to click on them. Start by writing a click handler on the class `.select-color`.
 
