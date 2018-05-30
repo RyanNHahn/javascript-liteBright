@@ -1,5 +1,35 @@
-# Javascript - LiteBright
+# Javascript - Lite Brite
 Build an interactive Lite Brite utilizing JavaScript and jQuery. The project will be a grid of elements that change color when clicked, then have the ability to blink.  When complete, the user will be able to draw a picture with multiple colors using the program.
+
+## Directions - HTML
+
+1. Some of the html has been done for you. Open the **index.html** file and, inside the body, add a div with a class of `color-picker`.
+
+2. In the `color-picker` div, add four more divs.
+
+3. The first div should use the following classes: `select-color`, `cyan`, and `not-selected`. The text **CYAN** should appear on the page.
+
+4. The second div should use the following classes: `select-color`, `yellow`, and `not-selected`. The text **YELLOW** should appear on the page.
+
+5. The third div should use the following classes: `select-color`, `magenta`, and `not-selected`. The text **MAGENTA** should appear on the page.
+
+6. The fourth div should use the class `toggle-blink` and the text **Blink!** should appear on the page.
+
+7. Now the fun part, the "board" has 36 rows. Each row contains either 28 or 27 circles. You'll set up two of these rows, then copy and paste the rest.
+
+8. Create a new div with class `row`.
+
+9. Inside this row, create 28 divs each with class `box`. *(Hint: Create one and copy and paste)*
+
+10. Now, copy and paste that row below itself. Delete one of the `box` divs.
+
+11. Finally, copy both rows and paste them in 17 more times.
+
+## Directions - CSS
+
+1. Most of the CSS has been done for you. You just have to fine tune a few things.
+
+2. 
 
 ## Directions - JavaScript
 
