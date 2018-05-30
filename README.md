@@ -27,9 +27,7 @@ Build an interactive Lite Brite utilizing JavaScript and jQuery. The project wil
 
 ## Directions - CSS
 
-1. Most of the CSS has been done for you. You just have to fine tune a few things.
-
-2. 
+1. The CSS has been added for you. Read through it to become familiar where things are. You may need to refer to the CSS later in the project. Also, once the project is working you can go back and change colors if you wish; just make sure you change everything!
 
 ## Directions - JavaScript
 
@@ -60,27 +58,22 @@ Build an interactive Lite Brite utilizing JavaScript and jQuery. The project wil
 
 9. Now we can choose a color, but we need to apply the color class to the boxes in the grid. Every box in the grid has a class of `box`. When we click on one of those boxes, let's toggle whichever class is inside the `colorClass` variable. Start by writing another click function outside the one we previously wrote. The selector should select all elements with '.box'.
 
-10. Inside the .box click function, use $(this) to select the box that was clicked, and toggle the class colorClass.
+10. Inside the `.box` `click` function, use `$(this)` to select the box that was clicked, and toggle the class `colorClass`. Test it out: you should be able to click a color, then click a box in the grid, and it should change to the selected color!
 
-Test it out: you should be able to click a color, then click a box in the grid, and it should change to the selected color!
+11. The last task is to make our grid blink when we click the "Blink" button. Write another `click` function, but this time select `'.toggle-blink'`.
 
-11.
-The last task is to make our grid blink when we click the "Blink" button.
+12. Inside the `click` function, we need to do three things:
+        1. Make sure colorClass is not empty.
+        2. Make the blink button light up.
+        3. Make the boxes in the grid toggle between an opacity of 1, and of 0.7, over and over.
 
-Write another click function, but this time select '.toggle-blink'.
-
-12.
-Inside the click function, we need to do three things:
-
-Make sure colorClass is not empty.
-Make the blink button light up.
-Make the boxes in the grid toggle between an opacity of 1, and of 0.7, over and over.
-We can make sure colorClass is not empty by writing an if/else statement that looks like:
-
-if (colorClass) {
-  // the rest of the code in here
-}
-colorClass starts out equal to an empty string: '', which evaluates to false. When we click a color, it will be set to a color, like cyan, which will evaluate to true.
+    We can make sure colorClass is not empty by writing an if/else statement that looks like:
+    ```javascript
+    if (colorClass) {
+    // the rest of the code in here
+    }
+    ```
+    colorClass starts out equal to an empty string: '', which evaluates to false. When we click a color, it will be set to a color, like cyan, which will evaluate to true.
 
 13. Inside the if/else statement, let's make the button light up. Toggle the class opacity on the '.toggle-blink' element.
 
